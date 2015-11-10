@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ajustes"
+        android:title="Ajustes"
+        android:icon="@drawable/ajustes"
+        android:orderInCategory="90"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_whatssap"
+        android:title="Whatssap"
+        android:icon="@drawable/whatsapp"
+        android:orderInCategory="80"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_fondoAzul"
+        android:title="Fondo Azul"
+        android:orderInCategory="60"
+        android:showAsAction="withText" />
+
+    <item
+        android:id="@+id/action_fondoRojo"
+        android:title="Fondo rojo"
+        android:orderInCategory="60"
+        android:showAsAction="withText" />
+
+</menu>
